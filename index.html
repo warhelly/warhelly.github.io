@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Биржа</title>
+  <style>
+    body {
+      background-image: url("https://cdnn21.img.ria.ru/images/151736/24/1517362420_0:0:3072:2048_1440x900_80_1_1_93bfa52a5eb6567048997028b8dba3dc.jpg.webp?source-sid=rian_photo");
+      background-size: cover;
+      background-repeat: repeat;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      text-align: center;
+    }
+
+    label {
+      display: block;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>FIN АРТ</h1>
+    <form action="second_page.html" method="post">
+      <label for="login">Логин:</label>
+      <input type="text" id="login" name="login" required><br><br>
+      <label for="password">Пароль:</label>
+      <input type="password" id="password" name="password" required><br><br>
+      <input type="submit" value="Вход">
+    </form>
+  </div>
+</body>
+</html>
